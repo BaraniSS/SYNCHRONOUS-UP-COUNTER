@@ -28,19 +28,48 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+/* 1.Type the Verilog program in Quartus Prime to implement the 4-bit synchronous up
+counter.
+
+2.Compile and run the program to ensure there are no syntax or logical errors.
+
+3.Generate the RTL schematic to visualize the structure of the synchronous counter and
+verify the design logic.
+
+4.Create nodes for the clock (CLK), reset, and counter outputs (Q3, Q2, Q1, Q0) to
+observe the counting process.
+
+5.Simulate the design for multiple clock cycles and observe the timing diagrams to
+confirm that the counter increments its value sy
+
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+![Screenshot 2024-12-05 112715](https://github.com/user-attachments/assets/14db1d9f-3c4e-4448-a9b7-cf4c661f2e98)
+
+
+Developed by: BARANI S S RegisterNumber:24900119
 */
 
 **RTL LOGIC UP COUNTER**
 
+![Screenshot 2024-12-05 112721](https://github.com/user-attachments/assets/6c1c0423-5a7f-4537-b78e-d6c27d0f5c56)
+
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+![Screenshot 2024-12-05 112730](https://github.com/user-attachments/assets/766a7b0c-862b-4a51-94be-7f67b4a704ae)
+
 
 **TRUTH TABLE**
 
+![Screenshot 2024-12-05 112740](https://github.com/user-attachments/assets/53fa7814-d403-4cf1-b9f6-37572769e302)
+
+
 **RESULTS**
+
+Thus, the 4-bit synchronous up counter was successfully implemented, and its
+functionality was validated through simulation. The counter incremented correctly with
+each clock pulse, as verified by the truth table and timing diagrams.
